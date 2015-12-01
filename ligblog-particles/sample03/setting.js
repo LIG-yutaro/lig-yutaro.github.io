@@ -1,0 +1,66 @@
+particlesJS('hoge',{
+    "particles":{
+//--シェイプの設定----------
+      "number":{
+        "value":100,
+        "density":{
+          "enable":true,
+          "value_area":200
+        }
+      },
+      "shape":{
+        "type":"circle"
+      },
+      "opacity":{
+        "value":0
+      },
+      "size":{
+        "value":1
+      },
+//--------------------
+ 
+//--線の設定----------
+      "line_linked":{
+        "enable":true,
+        "distance":100,
+        "color":"#fff",
+        "opacity":0.1,
+        "width":150
+      },
+//--------------------
+ 
+//--動きの設定----------
+      "move":{
+        "speed":30,
+        "direction":"top-right"
+      }
+//--------------------
+    },
+    "interactivity":{
+      "detect_on":"canvas",
+      "events":{
+//--マウスオーバー時の処理----------
+        "onhover":{
+          "enable":false
+        },
+//--------------------
+ 
+//--クリック時の処理----------
+        "onclick":{
+          "enable":true,
+          "mode":"repulse"
+        }
+//--------------------
+      },
+      "modes":{
+//--シェイプがカーソルから逃げる----------
+        "repulse":{
+          "distance":250
+        }
+//--------------------
+      }
+    },
+    "retina_detect":true,
+    "resize":true
+  }
+);
