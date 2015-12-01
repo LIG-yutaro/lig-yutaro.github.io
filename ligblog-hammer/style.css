@@ -1,0 +1,31 @@
+body{
+  background-color:#333;
+}
+h1{
+  text-align:center;
+  color:#fff;
+  letter-spacing:0.05em;
+}
+.reaction-area{
+	border:1px dotted #999;
+	color:#aaa;
+	width: 90%;
+	height: 30px;
+	line-height: 25px;
+	margin:0 auto;
+	margin-bottom:20px;
+	text-align:center;
+	box-sizing:border-box;
+
+}
+.gesture-area{
+	box-shadow:10px 10px 10px rgba(0,0,0,0.4); 
+	background-color: #000;
+	height: 130px;
+	margin: 0 auto;
+	width: 90%;
+	color: #fff;
+	text-align:center;
+	padding-top: 120px;
+}
+
