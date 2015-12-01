@@ -1,7 +1,6 @@
-
-
 $(function(){
-	var $sw;ipe = $('.swipe');
+
+	var $swipe = $('.swipe');
 	var $swipeText = $('.swipe-text');
 
 	var $swipeleft = $('.swipeleft');
@@ -36,7 +35,7 @@ $(function(){
 
 
 
-	$('.swipe').hammer().on('swipe',function(){
+	$swipe.hammer().on('swipe',function(){
 		$swipeText.text('swipe ok');
 	});
 
@@ -71,7 +70,5 @@ $(function(){
 	$hold.hammer().on('hold',function(){
 		$holdText.text('hold ok');
 	});
-		
-
 
 });
