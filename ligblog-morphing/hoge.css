@@ -1,0 +1,16 @@
+body{
+  background-color:#333;
+}
+h1{
+  text-align:center;
+  color:#fff;
+  letter-spacing:0.05em;
+}
+
+.stage{
+  width:1000px;
+  height:500px;
+  margin:0 auto;
+  background-color:#fff;
+  box-shadow:10px 10px 10px rgba(0,0,0,0.4); 
+}
