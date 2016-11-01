@@ -1,0 +1,50 @@
+body{
+  background-color:#333;
+}
+h1{
+  text-align:center;
+  color:#fff;
+  letter-spacing:0.05em;
+}
+div{
+  box-shadow:10px 10px 10px rgba(0,0,0,0.4); 
+}
+
+.stage{
+  width:800px;
+  height:300px;
+  margin:0 auto;
+  background-color:#000;
+}
+
+li{
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+li a{
+	display: block;
+	padding: 0 10px;
+	background-color: #fff;
+	border-bottom: 5px solid #aaa;
+
+	color: #333;
+	text-decoration: none;
+	line-height: 2;
+}
+
+li a:hover{
+	position: relative;
+	top: 3px; 
+	border-bottom: 2px solid #aaa;
+}
+
+.hoge{
+	color:#fff;
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+	position: relative;
+	top: 50px;
+}
