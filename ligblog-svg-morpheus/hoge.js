@@ -3,9 +3,9 @@ $(function(){
 	let isFormation = 'dia';
 
 	let hoge = new SVGMorpheus('.hoge', {
-		duration: '1000',
-		easing: 'circ-in', 
-		rotation: 'none'
+		duration: '500',
+		easing: 'quint-in-out', 
+		rotation: 'clock'
 	});
 
 	setInterval(()=>{
